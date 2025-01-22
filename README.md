@@ -36,7 +36,7 @@ export NEXT_PUBLIC_PORT=":3000"
 - Then run the following commands
 ```
 $ git clone https://github.com/lley154/cardano-starter-kit.git
-$ cd cardano-starter-kit
+$ cd cardano-starter-kit/vesting
 $ npm install
 $ npm run dev
 ```
