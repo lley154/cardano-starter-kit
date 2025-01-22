@@ -44,7 +44,7 @@ $ npm run dev
 - Go to http://localhost:3000/
 - Select Eternl
 - A popup window will appear to allow access to Eternl from this webapp. 
-- The Wallet Info blox should show your wallet Ada (lovelace) balance
+- The Wallet Info box should show your wallet Ada (lovelace) balance
 
 ![image](https://github.com/user-attachments/assets/3fbc8a4b-4d01-4b7f-afdf-a99e3e99fd94)
 
