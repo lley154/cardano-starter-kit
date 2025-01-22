@@ -59,13 +59,13 @@ $ npm run dev
 
 - Select Unlock UTXO
 - Sign the transaction
-- You can also see the transaction in your Eternl wallet in the transaction tab
+- You can see the transaction in your Eternl wallet in the transaction tab
 
 ## Cancel Transaction
 
 - Select Cancel UTXO
 - Sign the transaction
-- You can also see the transaction in your Eternl wallet in the transaction tab
+- You can see the transaction in your Eternl wallet in the transaction tab
 
 ## CBOR Debugging
 - To inpsect the CBOR included in the transaction use https://cbor.nemo157.com/
