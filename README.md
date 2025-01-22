@@ -67,6 +67,6 @@ $ npm run dev
 - Sign the transaction
 - You can also see the transaction in your Eternl wallet in the transaction tab
 
-## CBOR Debuggin
+## CBOR Debugging
 - To inpsect the CBOR included in the transaction use https://cbor.nemo157.com/
 
