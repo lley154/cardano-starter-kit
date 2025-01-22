@@ -11,7 +11,7 @@ export {
     network
 }
 
-const network = "preprod"
+const network: "mainnet" | "preprod" | "preview" = "preprod"; // or whichever is your default
 config.set({ ...config, IS_TESTNET: true });
 const env = process.env.NEXT_PUBLIC_ENV as string;
 const host = process.env.NEXT_PUBLIC_HOST as string;

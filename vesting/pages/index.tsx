@@ -27,7 +27,7 @@ import {
 
 
 // Optimization flag for Helios compiler
-const optimize = true;
+const optimize = false;
 
 const Home: NextPage = () => {
 
@@ -190,7 +190,7 @@ const Home: NextPage = () => {
                           Address.fromHashes(vestingCompiledProgram.validatorHash));
 
       // Create the vesting claim redeemer
-      const vestingRedeemer = (new vestingProgram .types.Redeemer.Claim(message))
+      const vestingRedeemer = (new vestingProgram.types.Redeemer.Claim(message))
                               ._toUplcData();
       
       // Check that UTXO input exists
@@ -272,7 +272,7 @@ const Home: NextPage = () => {
                           Address.fromHashes(vestingCompiledProgram.validatorHash));
 
       // Create the vesting claim redeemer
-      const vestingRedeemer = (new vestingProgram .types.Redeemer.Cancel())
+      const vestingRedeemer = (new vestingProgram.types.Redeemer.Cancel())
                               ._toUplcData();
       
       // Check that UTXO input exists
@@ -344,7 +344,7 @@ const Home: NextPage = () => {
             <p>
               TxId: &nbsp;&nbsp;
               <a
-                href={`https://${network === "mainnet" ? "" : network + "."}cexplorer.io/tx/${tx.txId}`}
+                href={`https://${network === "mainnet" ? "" : (network + ".")}cexplorer.io/tx/${tx.txId}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-500 underline text-xs"
