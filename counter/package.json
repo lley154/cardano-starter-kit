@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "build": "tsc",
+    "lock": "ts-node src/index.ts lock",
+    "increment": "ts-node src/index.ts increment",
+    "start": "node dist/index.js",
+    "dev": "tsc -w"
+  },
+  "dependencies": {
+    "@meshsdk/core": "^1.8.13"
+  }
+}
