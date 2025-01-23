@@ -20,5 +20,5 @@ name = "sidan-lab/vodka"
 version = "0.1.10"
 source = "github"
 
-
-[config]
+[config.default]
+network_id = 2
